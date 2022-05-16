@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		869E12C4282EC77700CB8413 /* LinkedInTabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E12C3282EC77700CB8413 /* LinkedInTabBarApp.swift */; };
+		869E12C6282EC77700CB8413 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E12C5282EC77700CB8413 /* ContentView.swift */; };
+		869E12C8282EC78000CB8413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869E12C7282EC78000CB8413 /* Assets.xcassets */; };
+		869E12CB282EC78000CB8413 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869E12CA282EC78000CB8413 /* Preview Assets.xcassets */; };
+		869E12D5282EC78000CB8413 /* LinkedInTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E12D4282EC78000CB8413 /* LinkedInTabBarTests.swift */; };
+		869E12DF282EC78000CB8413 /* LinkedInTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E12DE282EC78000CB8413 /* LinkedInTabBarUITests.swift */; };
+		869E12E1282EC78000CB8413 /* LinkedInTabBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E12E0282EC78000CB8413 /* LinkedInTabBarUITestsLaunchTests.swift */; };
+		869E12F2282EC81000CB8413 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E12EF282EC81000CB8413 /* TabBarView.swift */; };
+		869E12F3282EC81000CB8413 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E12F0282EC81000CB8413 /* TabBarItem.swift */; };
+		869E12F82831CD5500CB8413 /* TabBarTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E12F72831CD5500CB8413 /* TabBarTabView.swift */; };
+		869E12FA2831CD7100CB8413 /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E12F92831CD7100CB8413 /* TabBarButtonView.swift */; };
+		869E13002831CE7200CB8413 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E12FF2831CE7200CB8413 /* IconView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		869E12D1282EC78000CB8413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 869E12B8282EC77700CB8413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 869E12BF282EC77700CB8413;
+			remoteInfo = LinkedInTabBar;
+		};
+		869E12DB282EC78000CB8413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 869E12B8282EC77700CB8413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 869E12BF282EC77700CB8413;
+			remoteInfo = LinkedInTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		869E12C0282EC77700CB8413 /* LinkedInTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedInTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		869E12C3282EC77700CB8413 /* LinkedInTabBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInTabBarApp.swift; sourceTree = "<group>"; };
+		869E12C5282EC77700CB8413 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		869E12C7282EC78000CB8413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		869E12CA282EC78000CB8413 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		869E12D0282EC78000CB8413 /* LinkedInTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedInTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		869E12D4282EC78000CB8413 /* LinkedInTabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInTabBarTests.swift; sourceTree = "<group>"; };
+		869E12DA282EC78000CB8413 /* LinkedInTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedInTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		869E12DE282EC78000CB8413 /* LinkedInTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInTabBarUITests.swift; sourceTree = "<group>"; };
+		869E12E0282EC78000CB8413 /* LinkedInTabBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInTabBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		869E12EF282EC81000CB8413 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		869E12F0282EC81000CB8413 /* TabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		869E12F72831CD5500CB8413 /* TabBarTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarTabView.swift; sourceTree = "<group>"; };
+		869E12F92831CD7100CB8413 /* TabBarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButtonView.swift; sourceTree = "<group>"; };
+		869E12FF2831CE7200CB8413 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		869E12BD282EC77700CB8413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869E12CD282EC78000CB8413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869E12D7282EC78000CB8413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		869E12B7282EC77700CB8413 = {
+			isa = PBXGroup;
+			children = (
+				869E12C2282EC77700CB8413 /* LinkedInTabBar */,
+				869E12D3282EC78000CB8413 /* LinkedInTabBarTests */,
+				869E12DD282EC78000CB8413 /* LinkedInTabBarUITests */,
+				869E12C1282EC77700CB8413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		869E12C1282EC77700CB8413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				869E12C0282EC77700CB8413 /* LinkedInTabBar.app */,
+				869E12D0282EC78000CB8413 /* LinkedInTabBarTests.xctest */,
+				869E12DA282EC78000CB8413 /* LinkedInTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		869E12C2282EC77700CB8413 /* LinkedInTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				869E12FB2831CDF200CB8413 /* TabBar */,
+				869E12C3282EC77700CB8413 /* LinkedInTabBarApp.swift */,
+				869E12C5282EC77700CB8413 /* ContentView.swift */,
+				869E12C7282EC78000CB8413 /* Assets.xcassets */,
+				869E12C9282EC78000CB8413 /* Preview Content */,
+			);
+			path = LinkedInTabBar;
+			sourceTree = "<group>";
+		};
+		869E12C9282EC78000CB8413 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				869E12CA282EC78000CB8413 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		869E12D3282EC78000CB8413 /* LinkedInTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				869E12D4282EC78000CB8413 /* LinkedInTabBarTests.swift */,
+			);
+			path = LinkedInTabBarTests;
+			sourceTree = "<group>";
+		};
+		869E12DD282EC78000CB8413 /* LinkedInTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				869E12DE282EC78000CB8413 /* LinkedInTabBarUITests.swift */,
+				869E12E0282EC78000CB8413 /* LinkedInTabBarUITestsLaunchTests.swift */,
+			);
+			path = LinkedInTabBarUITests;
+			sourceTree = "<group>";
+		};
+		869E12FB2831CDF200CB8413 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				869E12FE2831CE5A00CB8413 /* Utils */,
+				869E12FD2831CE0F00CB8413 /* View */,
+				869E12FC2831CE0900CB8413 /* Model */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		869E12FC2831CE0900CB8413 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				869E12F0282EC81000CB8413 /* TabBarItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		869E12FD2831CE0F00CB8413 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				869E12F72831CD5500CB8413 /* TabBarTabView.swift */,
+				869E12F92831CD7100CB8413 /* TabBarButtonView.swift */,
+				869E12EF282EC81000CB8413 /* TabBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		869E12FE2831CE5A00CB8413 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				869E12FF2831CE7200CB8413 /* IconView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		869E12BF282EC77700CB8413 /* LinkedInTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869E12E4282EC78000CB8413 /* Build configuration list for PBXNativeTarget "LinkedInTabBar" */;
+			buildPhases = (
+				869E12BC282EC77700CB8413 /* Sources */,
+				869E12BD282EC77700CB8413 /* Frameworks */,
+				869E12BE282EC77700CB8413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkedInTabBar;
+			productName = LinkedInTabBar;
+			productReference = 869E12C0282EC77700CB8413 /* LinkedInTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		869E12CF282EC78000CB8413 /* LinkedInTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869E12E7282EC78000CB8413 /* Build configuration list for PBXNativeTarget "LinkedInTabBarTests" */;
+			buildPhases = (
+				869E12CC282EC78000CB8413 /* Sources */,
+				869E12CD282EC78000CB8413 /* Frameworks */,
+				869E12CE282EC78000CB8413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				869E12D2282EC78000CB8413 /* PBXTargetDependency */,
+			);
+			name = LinkedInTabBarTests;
+			productName = LinkedInTabBarTests;
+			productReference = 869E12D0282EC78000CB8413 /* LinkedInTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		869E12D9282EC78000CB8413 /* LinkedInTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869E12EA282EC78000CB8413 /* Build configuration list for PBXNativeTarget "LinkedInTabBarUITests" */;
+			buildPhases = (
+				869E12D6282EC78000CB8413 /* Sources */,
+				869E12D7282EC78000CB8413 /* Frameworks */,
+				869E12D8282EC78000CB8413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				869E12DC282EC78000CB8413 /* PBXTargetDependency */,
+			);
+			name = LinkedInTabBarUITests;
+			productName = LinkedInTabBarUITests;
+			productReference = 869E12DA282EC78000CB8413 /* LinkedInTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		869E12B8282EC77700CB8413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					869E12BF282EC77700CB8413 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					869E12CF282EC78000CB8413 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 869E12BF282EC77700CB8413;
+					};
+					869E12D9282EC78000CB8413 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 869E12BF282EC77700CB8413;
+					};
+				};
+			};
+			buildConfigurationList = 869E12BB282EC77700CB8413 /* Build configuration list for PBXProject "LinkedInTabBar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 869E12B7282EC77700CB8413;
+			productRefGroup = 869E12C1282EC77700CB8413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				869E12BF282EC77700CB8413 /* LinkedInTabBar */,
+				869E12CF282EC78000CB8413 /* LinkedInTabBarTests */,
+				869E12D9282EC78000CB8413 /* LinkedInTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		869E12BE282EC77700CB8413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869E12CB282EC78000CB8413 /* Preview Assets.xcassets in Resources */,
+				869E12C8282EC78000CB8413 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869E12CE282EC78000CB8413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869E12D8282EC78000CB8413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		869E12BC282EC77700CB8413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869E12C6282EC77700CB8413 /* ContentView.swift in Sources */,
+				869E12F2282EC81000CB8413 /* TabBarView.swift in Sources */,
+				869E12FA2831CD7100CB8413 /* TabBarButtonView.swift in Sources */,
+				869E12F3282EC81000CB8413 /* TabBarItem.swift in Sources */,
+				869E13002831CE7200CB8413 /* IconView.swift in Sources */,
+				869E12C4282EC77700CB8413 /* LinkedInTabBarApp.swift in Sources */,
+				869E12F82831CD5500CB8413 /* TabBarTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869E12CC282EC78000CB8413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869E12D5282EC78000CB8413 /* LinkedInTabBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869E12D6282EC78000CB8413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869E12E1282EC78000CB8413 /* LinkedInTabBarUITestsLaunchTests.swift in Sources */,
+				869E12DF282EC78000CB8413 /* LinkedInTabBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		869E12D2282EC78000CB8413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 869E12BF282EC77700CB8413 /* LinkedInTabBar */;
+			targetProxy = 869E12D1282EC78000CB8413 /* PBXContainerItemProxy */;
+		};
+		869E12DC282EC78000CB8413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 869E12BF282EC77700CB8413 /* LinkedInTabBar */;
+			targetProxy = 869E12DB282EC78000CB8413 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		869E12E2282EC78000CB8413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		869E12E3282EC78000CB8413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		869E12E5282EC78000CB8413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinkedInTabBar/Preview Content\"";
+				DEVELOPMENT_TEAM = TUYS5TF5HK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JamesSedlacek.LinkedInTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		869E12E6282EC78000CB8413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinkedInTabBar/Preview Content\"";
+				DEVELOPMENT_TEAM = TUYS5TF5HK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JamesSedlacek.LinkedInTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		869E12E8282EC78000CB8413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUYS5TF5HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JamesSedlacek.LinkedInTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkedInTabBar.app/LinkedInTabBar";
+			};
+			name = Debug;
+		};
+		869E12E9282EC78000CB8413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUYS5TF5HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JamesSedlacek.LinkedInTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkedInTabBar.app/LinkedInTabBar";
+			};
+			name = Release;
+		};
+		869E12EB282EC78000CB8413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUYS5TF5HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JamesSedlacek.LinkedInTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinkedInTabBar;
+			};
+			name = Debug;
+		};
+		869E12EC282EC78000CB8413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUYS5TF5HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JamesSedlacek.LinkedInTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinkedInTabBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		869E12BB282EC77700CB8413 /* Build configuration list for PBXProject "LinkedInTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869E12E2282EC78000CB8413 /* Debug */,
+				869E12E3282EC78000CB8413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869E12E4282EC78000CB8413 /* Build configuration list for PBXNativeTarget "LinkedInTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869E12E5282EC78000CB8413 /* Debug */,
+				869E12E6282EC78000CB8413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869E12E7282EC78000CB8413 /* Build configuration list for PBXNativeTarget "LinkedInTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869E12E8282EC78000CB8413 /* Debug */,
+				869E12E9282EC78000CB8413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869E12EA282EC78000CB8413 /* Build configuration list for PBXNativeTarget "LinkedInTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869E12EB282EC78000CB8413 /* Debug */,
+				869E12EC282EC78000CB8413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 869E12B8282EC77700CB8413 /* Project object */;
+}
